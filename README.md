@@ -15,3 +15,9 @@ From https://www.youtube.com/watch?v=F5mRW0jo-U4
 - might need to install django, run ```pip install django```
 - START server: ```python manage.py runserver```
 - MIGRATE data: ```python manage.py migrate```
+
+1. add new app
+   - run ```python manage.py startproject products```
+   - add models
+   - run migration and migrate
+   - add new model to admin
