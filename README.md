@@ -19,5 +19,10 @@ From https://www.youtube.com/watch?v=F5mRW0jo-U4
 1. add new app
    - run ```python manage.py startproject products```
    - add models
-   - run migration and migrate
+   - run makemigrations and migrate
    - add new model to admin
+
+## Create object in shell
+- ```python manage.py shell```
+- Query all: ```from products.models import Product``` -> ```Product.objects.all()```
+- Create new one: ```Product.objects.create(title='2', description='desc', price='22', summary='sum')```
