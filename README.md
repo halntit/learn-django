@@ -21,6 +21,11 @@ From https://www.youtube.com/watch?v=F5mRW0jo-U4
    - add models
    - run makemigrations and migrate
    - add new model to admin
+2. change home page
+   - add new app pages ```python manage.py startproject pages```
+   - add new app to settings.py
+   - add pages > views
+   - update urls.py
 
 ## Create object in shell
 - ```python manage.py shell```
